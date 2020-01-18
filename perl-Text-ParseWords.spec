@@ -1,6 +1,6 @@
 Name:           perl-Text-ParseWords
 Version:        3.29
-Release:        3%{?dist}
+Release:        4%{?dist}
 Summary:        Parse text into an array of tokens or array of arrays
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -59,6 +59,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 3.29-4
+- Mass rebuild 2013-12-27
+
 * Tue Nov 19 2013 Marcela Mašláňová <mmaslano@redhat.com> 3.29-3
 - According to guidelines must be email statement added as new source.
 - Related: rhbz#1030808
